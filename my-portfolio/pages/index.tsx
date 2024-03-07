@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { About, Hero, MobileNav, Nav } from "@/components";
+import { About, Hero, MobileNav, Nav, Services } from "@/components";
 
 const HomePage = () => {
   const [nav, setNav] = useState(false);
@@ -16,9 +16,12 @@ const HomePage = () => {
         {/** Hero section */}
         <Hero />
 
-        {/** About */}
         <div className="relative z-[30]">
+          {/** About */}
           <About />
+
+          {/** Services */}
+          <Services />
         </div>
       </div>
     </div>
