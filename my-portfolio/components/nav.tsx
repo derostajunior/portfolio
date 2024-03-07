@@ -11,7 +11,7 @@ const Nav = ({openNav}:Props) => {
       <div className="flex items-center justify-between w-[80%] mx-auto h-[100%]">
         <h1 className="flex-[0.6] cursor-pointer text-[25px] text-white font-bold">
           Dev
-          <span className="text-blue-400">SecOps</span>
+          <span className="text-[#b03320]">SecOps</span>
         </h1>
         <div className="nav">HOME</div>
         <div className="nav">SERVICES</div>
@@ -20,7 +20,7 @@ const Nav = ({openNav}:Props) => {
         <div className="nav">BLOG</div>
         <div className="nav">CONTACT</div>
         <div onClick={openNav}>
-            <Bars3Icon className="w-[2rem] md:hidden h-[2rem] cursor-pointer text-blue-400"/>
+            <Bars3Icon className="w-[2rem] md:hidden h-[2rem] cursor-pointer text-[#b03320]"/>
         </div>
       </div>
     </div>
