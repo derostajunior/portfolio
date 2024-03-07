@@ -11,7 +11,7 @@ const MobileNav = ({ nav, closeNav }: Props) => {
 
   return (
     <div
-      className={`fixed transform transition-all duration-300 top-0 right-0 bottom-0 z-50 bg-[#09101a] ${navAnimation}`}
+      className={`fixed transform transition-all duration-300 top-0 right-0 bottom-0 z-[1000000] bg-[#09101a] ${navAnimation}`}
     >
       <div className="w-[100vw] h-[100vh] flex flex-col items-center justify-center">
         <div className="nav-mobile">HOME</div>
@@ -21,7 +21,7 @@ const MobileNav = ({ nav, closeNav }: Props) => {
         <div className="nav-mobile">BLOG</div>
         <div className="nav-mobile">CONTACT</div>
       </div>
-      <div onClick={closeNav} className="absolute cursor-pointer top-[2rem] right-[2rem] w-[2rem] h-[2rem] text-blue-400">
+      <div onClick={closeNav} className="absolute z-[1000000] cursor-pointer top-[2rem] right-[2rem] w-[2rem] h-[2rem] text-[#b03320]">
         <XMarkIcon />
       </div>
     </div>
