@@ -9,10 +9,9 @@ const HomePage = () => {
   return (
     <div className="overflow-x-hidden">
       <div>
-        //#region Nav Bar
-          <MobileNav nav={nav} closeNav={closeNav} />
-          <Nav openNav={openNav} />
-        //#endregion
+        {/** Navbar */}
+        <MobileNav nav={nav} closeNav={closeNav} />
+        <Nav openNav={openNav} />
       </div>
     </div>
   );
