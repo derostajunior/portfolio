@@ -14,8 +14,8 @@ const Nav = ({openNav}:Props) => {
           <span className="text-[#b03320]">SecOps</span>
         </h1>
         <div className="nav">HOME</div>
-        <div className="nav">SERVICES</div>
         <div className="nav">ABOUT</div>
+        <div className="nav">SERVICES</div>
         <div className="nav">PROJECT</div>
         <div className="nav">BLOG</div>
         <div className="nav">CONTACT</div>
