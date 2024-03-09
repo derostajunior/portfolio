@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { About, Hero, MobileNav, Nav, Services } from "@/components";
+import { About, Hero, MobileNav, Nav, Services, Skills } from "@/components";
 
 const HomePage = () => {
   const [nav, setNav] = useState(false);
@@ -19,6 +19,9 @@ const HomePage = () => {
         <div className="relative z-[30]">
           {/** About */}
           <About />
+
+          {/** Skills */}
+          <Skills />
 
           {/** Services */}
           <Services />
