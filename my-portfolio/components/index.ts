@@ -6,6 +6,7 @@ import SkillsLanguage from "./Skills-language";
 import MobileNav from "./mobile-nav";
 import Nav from "./nav";
 import Particle from "./Particle";
+import Projects from "./projects";
 import Services from "./services";
 import TextEffect from "./text-effect"
 
@@ -18,6 +19,7 @@ export {
     MobileNav,
     Nav,
     Particle,
+    Projects,
     Services,
     TextEffect
 }
