@@ -12,6 +12,7 @@ import SkillsLanguage from "./Skills-language";
 import TextEffect from "./text-effect"
 import Testimonial from "./Testimonial";
 import TestimonialSlider from "./testimonial-slider";
+import Tools from "./tools"
 
 export {
     About,
@@ -27,5 +28,6 @@ export {
     SkillsLanguage,
     TextEffect,
     Testimonial,
-    TestimonialSlider
+    TestimonialSlider,
+    Tools
 }
