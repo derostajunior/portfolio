@@ -3,8 +3,6 @@ import {
   CanvasIcon,
   CssIcon,
   DjangoIcon,
-  ExpressIcon,
-  ExpressWhiteIcon,
   FigmaIcon,
   HtmlIcon,
   IllustratorIcon,
@@ -169,3 +167,41 @@ export const skillsDataCMS = [
     ],
   },
 ] as const;
+
+export const testimonialData = [
+  {
+    image:"/images/pic27.jpg",
+    name: "KIng James",
+    role: "Architect Developer",
+    starNumber: 4,
+    message: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorum fugiat deleniti quos, dicta expedita delectus excepturi a. Praesentium dolores voluptates exercitationem?"
+  },
+  {
+    image:"/images/c2.jpg",
+    name: "Adonis Simo",
+    role: "Cloud Ing",
+    starNumber: 3,
+    message: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorum fugiat deleniti quos, dicta expedita delectus excepturi a. Praesentium dolores voluptates exercitationem?"
+  },
+  {
+    image:"/images/pic36.jpg",
+    name: "Axel Nana",
+    role: "Full Stack Developer",
+    starNumber: 4,
+    message: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorum fugiat deleniti quos, dicta expedita delectus excepturi a. Praesentium dolores voluptates exercitationem?"
+  },
+  {
+    image:"/images/pic29.jpg",
+    name: "Divine Kamdoum",
+    role: "IT NetWork",
+    starNumber: 3,
+    message: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorum fugiat deleniti quos, dicta expedita delectus excepturi a. Praesentium dolores voluptates exercitationem?"
+  },
+  {
+    image:"/images/pic36.jpg",
+    name: "Alban Foko",
+    role: "Web Developer",
+    starNumber: 5,
+    message: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorum fugiat deleniti quos, dicta expedita delectus excepturi a. Praesentium dolores voluptates exercitationem?"
+  }
+]

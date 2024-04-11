@@ -21,7 +21,21 @@ const responsive = {
   },
 };
 
-const TestimonialSlider = () => {
+interface testimonialProps {
+  image: string;
+  name: string;
+  role: string;
+  message: string;
+  starNumber: number
+}
+
+interface DataTestimonialProps {
+  TestimonialData: readonly testimonialProps[];
+}
+
+const TestimonialSlider: React.FC<DataTestimonialProps> = ({
+  TestimonialData,
+}) => {
   return (
     <div>
       <Carousel
@@ -35,38 +49,16 @@ const TestimonialSlider = () => {
         itemClass="item"
       >
         {/** ClientReview */}
-        <ClientTestimonial
-          image="/images/pic27.jpg"
-          name="KIng James"
-          role="Architect Developer"
-          message="Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
-            Dolorum fugiat deleniti quos, dicta expedita delectus excepturi a. 
-            Praesentium dolores voluptates exercitationem?"
-        />
-        <ClientTestimonial
-          image="/images/c2.jpg"
-          name="Adonis Simo"
-          role="Cloud Ing"
-          message="Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
-            Dolorum fugiat deleniti quos, dicta expedita delectus excepturi a. 
-            Praesentium dolores voluptates exercitationem?"
-        />
-        <ClientTestimonial
-          image="/images/pic29.jpg"
-          name="Divine Kamdoum"
-          role="IT NetWork"
-          message="Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
-            Dolorum fugiat deleniti quos, dicta expedita delectus excepturi a. 
-            Praesentium dolores voluptates exercitationem?"
-        />
-        <ClientTestimonial
-          image="/images/pic36.jpg"
-          name="Alban Foko"
-          role="Web Developer"
-          message="Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
-            Dolorum fugiat deleniti quos, dicta expedita delectus excepturi a. 
-            Praesentium dolores voluptates exercitationem?"
-        />
+        {TestimonialData.map((testimonial, index) => (
+          <ClientTestimonial
+            key={index}
+            image={testimonial.image}
+            name={testimonial.name}
+            role={testimonial.role}
+            message={testimonial.message}
+            starNumber={testimonial.starNumber}
+          />
+        ))}
       </Carousel>
     </div>
   );
