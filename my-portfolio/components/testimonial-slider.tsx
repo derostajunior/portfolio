@@ -26,6 +26,7 @@ interface testimonialProps {
   name: string;
   role: string;
   message: string;
+  starNumber: number
 }
 
 interface DataTestimonialProps {
@@ -55,6 +56,7 @@ const TestimonialSlider: React.FC<DataTestimonialProps> = ({
             name={testimonial.name}
             role={testimonial.role}
             message={testimonial.message}
+            starNumber={testimonial.starNumber}
           />
         ))}
       </Carousel>
