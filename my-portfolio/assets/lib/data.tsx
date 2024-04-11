@@ -107,6 +107,12 @@ export const skillsDataWeb = [
         icon: <SvelteIcon />,
         color: "#FF3E00",
       },
+      {
+        title: "Vue.js",
+        hash: "#Vue",
+        icon: <VueIcon />,
+        color: "#41b883",
+      },
     ],
   },
 ] as const;

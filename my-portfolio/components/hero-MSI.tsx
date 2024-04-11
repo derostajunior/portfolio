@@ -36,7 +36,7 @@ const Hero = () => {
         </div>
         <div className="w-[500px] hidden bg-[#55e6a5] relative lg:flex justify-self-end rounded-full h-[500px]">
           <Image
-            src="/images/u8.jpeg"
+            src="/images/u5.jpg"
             alt="user"
             layout="fill"
             className="object-cover rounded-full mx-auto"
