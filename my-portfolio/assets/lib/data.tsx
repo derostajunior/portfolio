@@ -205,3 +205,18 @@ export const testimonialData = [
     message: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorum fugiat deleniti quos, dicta expedita delectus excepturi a. Praesentium dolores voluptates exercitationem?"
   }
 ]
+
+export const visionData = [
+  {
+    text: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Blanditiis at optio corrupti dolor doloribus vero, natus saepe explicabo rerum eum sapiente pariatur, consectetur delectus dolorem."
+  },
+  {
+    text: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Blanditiis at optio corrupti dolor doloribus vero, natus saepe explicabo rerum eum sapiente pariatur, consectetur delectus dolorem."
+  },
+  {
+    text: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Blanditiis at optio corrupti dolor doloribus vero, natus saepe explicabo rerum eum sapiente pariatur, consectetur delectus dolorem."
+  },
+  {
+    text: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Blanditiis at optio corrupti dolor doloribus vero, natus saepe explicabo rerum eum sapiente pariatur, consectetur delectus dolorem."
+  }
+]
