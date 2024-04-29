@@ -21,10 +21,10 @@ const toolsSection: React.FC<SkillSectionProps> = ({ skillsData, theme }) => {
   const getSkillIconSrc = (theme: string, skill: Skill) => {
     if (
       theme === "dark" &&
-      (skill.title.includes("Next") || skill.title.includes("Express"))
+      (skill.title.includes("Next"))
     ) {
       return skill.icon[1];
-    } else if (skill.title !== "Next.js" && skill.title !== "Express") {
+    } else if (skill.title !== "Next.js") {
       return skill.icon;
     } else {
       return skill.icon[0];
@@ -34,10 +34,10 @@ const toolsSection: React.FC<SkillSectionProps> = ({ skillsData, theme }) => {
   const getSkillColor = (theme: string, skill: Skill) => {
     if (
       theme === "dark" &&
-      (skill.title.includes("Next") || skill.title.includes("Express"))
+      (skill.title.includes("Next"))
     ) {
       return skill.color[1];
-    } else if (skill.title !== "Next.js" && skill.title !== "Express") {
+    } else if (skill.title !== "Next.js") {
       return skill.color;
     } else {
       return skill.color[0];
