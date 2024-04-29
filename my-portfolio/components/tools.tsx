@@ -23,13 +23,10 @@ const toolsSection: React.FC<SkillSectionProps> = ({ skillsData, theme }) => {
       theme === "dark" &&
       (skill.title.includes("Next") || skill.title.includes("Express"))
     ) {
-      console.log({ 1: skill.icon[1] });
       return skill.icon[1];
     } else if (skill.title !== "Next.js" && skill.title !== "Express") {
-      console.log({ 2: skill.icon });
       return skill.icon;
     } else {
-      console.log({ 3: skill.icon[0] });
       return skill.icon[0];
     }
   };
@@ -92,7 +89,9 @@ const toolsSection: React.FC<SkillSectionProps> = ({ skillsData, theme }) => {
             );
           }}
         >
-          <div className="h-[4rem] mb-[2rem]">{getSkillIconSrc(theme, skill)}</div>
+          <div className="h-[4rem] mb-[2rem]">
+            {getSkillIconSrc(theme, skill)}
+          </div>
           <h3 className="max-lg:text-[2rem] font-black text-white text-xl mb-2 max-[1024px]:hidden">
             {skill.title}
           </h3>
