@@ -16,6 +16,14 @@
   .heading {
     @apply text-center text-white text-[28px] sm:text-[33px] md:text-[45px] font-bold uppercase;
   }
+
+  .form-label {
+    @apply text-white text-[15px] font-semibold uppercase mr-4;
+  }
+
+  .form-control {
+    @apply bg-[#b0f0d3] rounded-lg h-10 w-full placeholder:text-gray-900 placeholder:font-semibold placeholder:text-[15px] focus:outline-none p-4 opacity-50 hover:opacity-100;
+  }
 }
 
 /* GENERAL COLORS */

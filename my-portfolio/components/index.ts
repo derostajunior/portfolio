@@ -1,5 +1,6 @@
 import About from "./About";
 import ClientTestimonial from "./client-testimonial";
+import Contact from "./contact";
 import Hero from "./hero";
 import MobileNav from "./mobile-nav";
 import Nav from "./nav";
@@ -17,6 +18,7 @@ import Tools from "./tools"
 export {
     About,
     ClientTestimonial,
+    Contact,
     Hero,
     MobileNav,
     Nav,
