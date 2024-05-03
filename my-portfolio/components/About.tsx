@@ -1,5 +1,6 @@
 import { visionData } from "@/assets/lib/data";
 import { ArrowDownTrayIcon } from "@heroicons/react/20/solid";
+import {DownloadCv} from "../components"
 import Image from "next/image";
 import React from "react";
 
@@ -29,13 +30,7 @@ const About = () => {
               </p>
             </div>
           ))}
-          <button
-            className="px-[2rem] hover:bg-[#b03320] transition-all duration-200 py-[1rem] text-[18px] 
-          font-bold uppercase bg-[#55e6a5] text-black flex items-center space-x-2"
-          >
-            <span>Download Cv</span>
-            <ArrowDownTrayIcon className="w-[1.6rem] h-[1.7rem] text-black" />
-          </button>
+          <DownloadCv />
         </div>
         <div className="lg:w-[500px] mx-auto md:mx-0 mt-[2rem] lg:mt-0 lg:h-[500px] w-[300px] h-[300px] relative lg:flex justify-self-end">
           <Image

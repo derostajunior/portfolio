@@ -4,6 +4,7 @@ import Particle from "./Particle";
 import TextEffect from "./text-effect";
 import Image from "next/image";
 import { ArrowDownTrayIcon, PlayCircleIcon } from "@heroicons/react/20/solid";
+import {DownloadCv } from "../components"
 
 const Hero = () => {
   return (
@@ -21,10 +22,7 @@ const Hero = () => {
             voluptatem in suscipit magnam deleniti quidem?
           </p>
           <div className="mt-[2rem] flex-col space-y-6 sm:space-y-0 sm:flex sm:flex-row items-center sm:space-x-6">
-            <button className="px-[2rem] hover:bg-[#b03320] transition-all duration-200 py-[1rem] text-[18px] font-bold uppercase bg-[#55e6a5] text-black flex items-center space-x-2">
-              <span>Download Cv</span>
-              <ArrowDownTrayIcon className="w-[1.6rem] h-[1.7rem] text-black" />
-            </button>
+            <DownloadCv />
 
             <button className="flex items-center space-x-2">
               <PlayCircleIcon className="w-[4rem] h-[4rem] hover:text-[#b03320] transition-all duration-200 text-[#55e6a5]" />

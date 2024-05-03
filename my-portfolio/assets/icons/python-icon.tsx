@@ -1,6 +1,6 @@
 import React from "react";
 
-const PythonIcon = () => {
+const PythonIcon = (props:React.SVGProps<SVGSVGElement>) => {
   return (
     <svg
       fill="none"
@@ -9,6 +9,7 @@ const PythonIcon = () => {
       height="100"
       viewBox="0 0 75 75"
       xmlns="http://www.w3.org/2000/svg"
+      className={props.className}
     >
       <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
       <g
