@@ -30,13 +30,13 @@ export const skillsDataWeb = [
       {
         title: "Django",
         hash: "#Django",
-        icon: <DjangoIcon />,
+        icon: <DjangoIcon className="w-10 h-10"/>,
         color: "#4FC08D",
       },
       {
         title: "Python",
         hash: "#Python",
-        icon: <PythonIcon />,
+        icon: <PythonIcon className="flex items-center justify-center" />,
         color: "#fdd22f",
       },
       {

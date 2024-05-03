@@ -1,6 +1,6 @@
 import React from "react";
 
-const DjangoIcon = () => {
+const DjangoIcon = (props:React.SVGProps<SVGSVGElement>) => {
   return (
     <svg
       fill="none"
@@ -9,6 +9,7 @@ const DjangoIcon = () => {
       height="100"
       viewBox="0 0 32 32"
       xmlns="http://www.w3.org/2000/svg"
+      className={props.className}
     >
       <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
       <g
