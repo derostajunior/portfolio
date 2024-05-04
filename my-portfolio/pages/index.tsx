@@ -1,5 +1,16 @@
 import React, { useState } from "react";
-import { About, Contact, Hero, MobileNav, Nav, Projects, Services, Skills, Testimonial } from "@/components";
+import {
+  About,
+  Contact,
+  Footer,
+  Hero,
+  MobileNav,
+  Nav,
+  Projects,
+  Services,
+  Skills,
+  Testimonial,
+} from "@/components";
 
 const HomePage = () => {
   const [nav, setNav] = useState(false);
@@ -31,10 +42,13 @@ const HomePage = () => {
 
           {/** Testimonial */}
           <Testimonial />
-
-          {/** Contact */}
-          <Contact />
         </div>
+        
+        {/** Contact */}
+        <Contact />
+
+        {/** Footer */}
+        <Footer />
       </div>
     </div>
   );

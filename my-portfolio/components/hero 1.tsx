@@ -3,7 +3,7 @@ import React from "react";
 import Particle from "./Particle";
 import TextEffect from "./text-effect";
 import Image from "next/image";
-import { ArrowDownTrayIcon, PlayCircleIcon } from "@heroicons/react/20/solid";
+import { PlayCircleIcon } from "@heroicons/react/20/solid";
 import {DownloadCv } from "../components"
 
 const Hero = () => {
@@ -13,7 +13,7 @@ const Hero = () => {
       <div className="w-[80%] grid-cols-1 mx-auto grid lg:grid-cols-2 gap-[3rem] h-[100%] items-center">
         <div>
           <h1 className="text-[35px] md:text-[50px] text-white font-bold">
-            HI, I'M <span className="text-[#b03320]">JUNIOR DAQUIN!</span>
+            HI, I'M <span className="text-[#b03320]">Junior Daquin DEUGOUE!</span>
           </h1>
           <TextEffect />
           <p className="mt-[1.5rem] text-[18px] text-[#ffffff92]">

@@ -3,12 +3,12 @@ import React from "react";
 import Particle from "./Particle";
 import TextEffect from "./text-effect";
 import Image from "next/image";
-import { ArrowDownTrayIcon, PlayCircleIcon } from "@heroicons/react/20/solid";
+import { PlayCircleIcon } from "@heroicons/react/20/solid";
 import {DownloadCv } from "../components"
 
 const Hero = () => {
   return (
-    <div className="h-[100vh] bg-[url('/images/banner.jpg')] bg-cover bg-center">
+    <div className="h-[100vh] bg-[url('/images/banner1.jpg')] bg-cover bg-center">
       <Particle />
       <div className="w-[80%] grid-cols-1 mx-auto grid lg:grid-cols-2 gap-[3rem] h-[100%] items-center">
         <div>

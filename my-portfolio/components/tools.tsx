@@ -64,7 +64,7 @@ const toolsSection: React.FC<SkillSectionProps> = ({ skillsData, theme }) => {
       {skillsData[0].skills.map((skill, index) => (
         <div
           key={index}
-          className={`skill-item cursor-pointer flex flex-col gap-8 rounded-2xl p-2 border-solid border-[0.25rem]  text-center  items-center   ${
+          className={`cursor-pointer flex items-center justify-center rounded-2xl border-solid border-[0.25rem]  text-center p-16 w-auto h-[8rem] ${
             theme === "dark" ? "bg-[--darkblue]" : "bg-[--icewhite]"
           }`}
           data-tooltip-id="my-tooltip"
@@ -89,12 +89,12 @@ const toolsSection: React.FC<SkillSectionProps> = ({ skillsData, theme }) => {
             );
           }}
         >
-          <div className="h-[4rem]">
+          <div className="">
             {getSkillIconSrc(theme, skill)}
           </div>
-          <h3 className="max-lg:text-[2rem] font-black text-white text-xl mb-2 max-[1024px]:hidden">
+          {/* <h3 className="max-lg:text-[2rem] font-black text-white text-xl mb-2 max-[1024px]:hidden">
             {skill.title}
-          </h3>
+          </h3> */}
         </div>
       ))}
     </article>

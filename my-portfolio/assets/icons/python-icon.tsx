@@ -5,8 +5,8 @@ const PythonIcon = (props:React.SVGProps<SVGSVGElement>) => {
     <svg
       fill="none"
       role="img"
-      width="100"
-      height="100"
+      width="none"
+      height="none"
       viewBox="0 0 75 75"
       xmlns="http://www.w3.org/2000/svg"
       className={props.className}

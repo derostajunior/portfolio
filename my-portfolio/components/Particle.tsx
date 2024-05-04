@@ -26,6 +26,8 @@ const Particle = () => {
     <div>
       <Particles
         id="tsparticles"
+        height={'100'}
+        width={'100'}
         init={particlesInit}
         loaded={particlesLoaded}
         options={{

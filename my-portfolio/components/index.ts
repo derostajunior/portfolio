@@ -1,7 +1,8 @@
 import About from "./About";
 import ClientTestimonial from "./client-testimonial";
 import Contact from "./contact";
-import DownloadCv from "./download-cv.tsx"
+import DownloadCv from "./download-cv"
+import Footer from "./footer";
 import Hero from "./hero";
 import MobileNav from "./mobile-nav";
 import Nav from "./nav";
@@ -21,6 +22,7 @@ export {
     ClientTestimonial,
     Contact,
     DownloadCv,
+    Footer,
     Hero,
     MobileNav,
     Nav,

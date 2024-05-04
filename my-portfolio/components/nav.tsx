@@ -18,7 +18,7 @@ const Nav = ({ openNav }: Props) => {
     <div className="w-[100%] fixed z-50 top-0 h-[9vh] bg-[#141c27] bg-opacity-50 shadow-md">
       <div className="flex items-center justify-between w-[80%] mx-auto h-[100%]">
         <h1 className="flex-[0.6] cursor-pointer text-[25px] text-white font-bold">
-          J
+          J2
           <span className="text-[#b03320]">D.</span>
         </h1>
         <div className="nav">
